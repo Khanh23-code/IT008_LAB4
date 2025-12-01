@@ -74,6 +74,7 @@ namespace Bai4
         private void tsBtnNew_Click(object sender, EventArgs e)
         {
             rtbMain.Clear();
+            filePath = null;
             tsCbbFont.SelectedIndex = defaultFamilyIndex;
             tsCbbSize.SelectedIndex = 2;
         }
